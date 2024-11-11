@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ergonomia na Construção Civil - Segurança e Qualidade na Construção</title>
+    <style>
+        /* Estilos Gerais */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f3f4f6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Barra de Navegação */
+        nav {
+            background-color: #004080;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+        nav h2 {
+            margin: 0;
+            font-weight: 600;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1em;
+        }
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        /* Cabeçalho */
+        header {
+            background: url('header-background.jpg') no-repeat center center/cover;
+            color: #000000;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+        }
+        header p {
+            font-size: 1.3em;
+            max-width: 700px;
+            margin: auto;
+            line-height: 1.5;
+        }
+
+        /* Conteúdo Principal */
+        .content {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 2em;
+            color: #004080;
+            margin-bottom: 20px;
+        }
+
+        /* Comparação de Ergonomia */
+        .comparison {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        .comparison div {
+            width: 45%;
+            max-width: 480px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .comparison div:hover {
+            transform: translateY(-5px);
+        }
+        .comparison img {
+            width: 100%;
+            height: auto;
+            border-bottom: 5px solid #004080;
+        }
+        .caption {
+            padding: 15px;
+            font-size: 1.1em;
+            line-height: 1.4;
+        }
+
+        /* Estilos para Correto e Incorreto */
+        .correct .caption {
+            color: #28a745; /* Verde para correto */
+            font-weight: bold;
+        }
+        .incorrect .caption {
+            color: #dc3545; /* Vermelho para incorreto */
+            font-weight: bold;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #004080;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navegação -->
+    <nav id="inicio">
+        <h2>Segurança e Qualidade na Construção</h2>
+        <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#ergonomia">Ergonomia</a></li>
+            <li><a href="#Levantamento">Levantamento</a></li>
+            <li><a href="#Postura">Postura</a></li>
+            <li><a href="#Movimentos">Movimentos</a></li>
+            <li><a href="#Transporte de Carga">Transporte de Carga</a></li>
+            <li><a href="#Realizadores">Realizadores</a></li>
+            
+        </ul>
+    </nav>
+
+    <!-- Cabeçalho -->
+    <header id="home">
+        <h1>Ergonomia Física na Construção Civil</h1>
+        <p>Saiba como aplicar técnicas ergonômicas para aumentar a segurança e eficiência no trabalho, com comparações práticas de posturas corretas e incorretas.</p>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <div class="content" id="ergonomia">
+        <h2 class="section-title">Exemplos de Ergonomia na Construção Civil</h2>
+
+        <!-- Exemplo de Levantamento -->
+        <div id="Levantamento"class="comparison">
+            <div class="correct">
+                <img src="correto_levantamento.jpg" alt="Levantamento correto">
+                <p class="caption">Técnica Correta: Costas retas, joelhos dobrados</p>
+            </div>
+            <div class="incorrect">
+                <img src="incorreto_levantamento.jpg" alt="Levantamento incorreto">
+                <p class="caption">Técnica Incorreta: Costas curvadas, pernas esticadas</p>
+            </div>
+        </div>
+        <div class="comparison">
+            <div class="correct">
+                <img src="correto_levantamento2.jpg" alt="Levantamento correto">
+                <p class="caption">Técnica Correta: Costas retas, joelhos dobrados e pedir ajuda com grandes cargas</p>
+            </div>
+            <div class="incorrect">
+                <img src="incorreto_levantamento2.jpg" alt="Levantamento incorreto">
+                <p class="caption">Técnica Incorreta: Costas curvadas, pernas esticadas e fazer sozinho alto risco de lesão</p>
+            </div>
+        </div>
+
+        <!-- Exemplo de Postura -->
+        <div id="Postura"class="comparison">
+            <div class="correct">
+                <img src="correto_postura.jpg" alt="Postura correta">
+                <p class="caption">Postura Correta: Alinhamento natural da coluna</p>
+            </div>
+            <div class="incorrect">
+                <img src="incorreto_postura.jpg" alt="Postura incorreta">
+                <p class="caption">Postura Incorreta: Coluna curvada, ombros caídos</p>
+            </div>
+        </div>
+        <div class="comparison">
+            <div class="correct">
+                <img src="correto_postura2.jpg" alt="Postura correta">
+                <p class="caption">Postura Correta: Alinhamento natural da coluna</p>
+            </div>
+            <div class="incorrect">
+                <img src="incorreto_postura2.jpg" alt="Postura incorreta">
+                <p class="caption">Postura Incorreta: Coluna curvada afetando a lombar</p>
+            </div>
+        </div>
+
+        <!-- Exemplo de Movimentos -->
+        <div id="Movimentos"class="comparison">
+            <div class="correct">
+                <img src="correto_movimento.jpg" alt="Movimento correto">
+                <p class="caption">Movimento Correto: Movimentos suaves e controlados</p>
+            </div>
+            <div class="incorrect">
+                <img src="incorreto_movimento.jpg" alt="Movimento incorreto">
+                <p class="caption">Movimento incorreto: Movimentos bruscos e forçados</p>
+            </div>
+        </div>
+        <div class="comparison">
+            <div class="correct">
+                <img src="correto_movimento2.jpg" alt="Movimento correto">
+                <p class="caption">Movimento Correto: Trabalho de equipa com grandes cargas, coluna direita e joelhos dobrados</p>
+            </div>
+            <div class="incorrect">
+                <img src="incorreto_movimento2.jpg" alt="Movimento incorreto">
+                <p class="caption">Movimento Incorreto: Coluna dobrada e pernas esticadas no levantamento de peso - total esforço da lombar</p>
+            </div>
+        </div>
+        <!-- Exemplo de Transporte de Carga -->
+        <div id="Transporte de Carga"class="comparison">
+            <div class="correct">
+                <img src="correto_transporte.jpg" alt="Transporte de carga correto">
+                <p class="caption">Transporte Correto: Se disponivel usar ferramentas que facilitem o transporte e eficiência do trabalho</p>
+            </div>
+            <div class="incorrect">
+                <img src="incorreto_transporte.jpg" alt="Transporte de carga incorreto">
+                <p class="caption">Transporte Incorreto: Carga excessiva para transportar manualmente e sozinho</p>
+            </div>
+        </div>
+    </div>
+    <div class="comparison">
+        <div class="correct">
+            <img src="correto_transporte2.jpg" alt="Transporte de carga correto">
+            <p class="caption">Transporte Correto: Transportar cargas pesadas com ajuda de uma pessoa com alturas identicas, igualando a distribuição de carga</p>
+        </div>
+        <div class="incorrect">
+            <img src="incorreto_transporte2.jpg" alt="Transporte de carga incorreto">
+            <p class="caption">Transporte Incorreto: Distribuição de carga toda no individuo mais baixo, devido à baixa estatura em relação ao outro</p>
+        </div>
+    </div>
+<!-- Botão de Voltar ao Início no Fim da Página -->
+<button onclick="window.location.href='#inicio'" class="back-to-top">Voltar ao Início</button>
+
+<style>
+    .back-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #004080;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        font-size: 0.9em;
+        cursor: pointer;
+        border-radius: 5px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+        transition: background-color 0.3s ease;
+    }
+    .back-to-top:hover {
+        background-color: #ffcc00;
+    }
+</style>
+
+
+    <!-- Rodapé -->
+    <footer>
+        <div id="Realizadores"
+        <p>Segurança e Qualidade na Construção - Construção Civil © 2024. 
+        </p>Trabalho realizado por Simão Miranda & Tomás Santos
+    </p>Instituto Politécnico de Leiria</p>
+    </footer>
+
+</body>
+</html>
